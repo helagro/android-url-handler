@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="?attr/colorPrimary" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_marginTop="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="@dimen/standard_45"
+        android:layout_height="@dimen/standard_45"
+        app:fabCustomSize="@dimen/standard_45"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/standard_21"
+        app:srcCompat="@drawable/add_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="@dimen/standard_45"
+        android:layout_height="@dimen/standard_45"
+        app:fabCustomSize="@dimen/standard_45"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/standard_21"
+        app:srcCompat="@drawable/delete_outline_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/more_vert_24" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

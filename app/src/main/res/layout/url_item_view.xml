@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:columnCount="2"
+    >
+
+    <TextView
+        style="@style/urlItemTextView"
+        android:text="Name"
+        />
+
+    <EditText
+        android:layout_columnWeight="3"
+        style="@style/urlItemEditText"
+        android:id="@+id/name"
+        />
+
+    <TextView
+        style="@style/urlItemTextView"
+        android:text="@string/url"
+        android:id="@+id/copy_url"
+        />
+
+    <EditText
+        android:layout_columnWeight="3"
+        style="@style/urlItemEditText"
+        android:id="@+id/url"
+        android:text="hlagr.github.io/"
+        />
+
+    <TextView
+        style="@style/urlItemTextView"
+        android:text="Actions"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="2"
+        />
+
+    <TextView
+        style="@style/urlItemTextView"
+        android:text="@string/app"
+        android:id="@+id/app_link"
+        />
+
+    <EditText
+        android:layout_columnWeight="3"
+        style="@style/urlItemEditText"
+        android:id="@+id/app_name"
+        />
+
+    <TextView
+        style="@style/urlItemTextView"
+        android:text="Action" />
+
+    <EditText
+        android:layout_columnWeight="3"
+        style="@style/urlItemEditText"
+        android:id="@+id/broadcast"
+        />
+
+</GridLayout>

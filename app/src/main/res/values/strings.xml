@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom UrlHandler</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="app"><u>App</u></string>
+    <string name="url"><u>Url</u></string>
+</resources>
